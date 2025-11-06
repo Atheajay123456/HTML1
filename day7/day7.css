@@ -1,0 +1,33 @@
+div{
+    height: 1000px;
+    width: 1000px;
+    border: 2px solid blue;
+    background-image: url("../image.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    background-attachment: scroll;
+
+}
+
+body{
+ background-image: url("../image.jpg");
+ background-attachment: scroll;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    border: 5px dotted red;
+    padding: 40px;
+    background-clip: content-box;
+    background-color: aqua;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    border: 5px dotted red;
+    background-color: aqua;
+    display: none;
+}

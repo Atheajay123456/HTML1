@@ -1,0 +1,63 @@
+ul > li {
+      background-color: lightblue;
+      padding: 5px;
+      margin: 3px 0;
+    }
+
+    ul ul li {
+      background-color: lightgreen;
+      padding: 5px;
+      margin: 3px 0;
+    }
+
+    h2+p{
+        color: yellow;
+        background-color: green;
+    }
+
+    h1~p{
+        color: brown;
+        background-color: yellow;
+    }
+
+  /* .order::first-letter{
+    content: 'A',;
+    color: orange;
+    font-size: 30px ;
+  }   */
+
+  /* .order:first-child{
+    color: orange;
+    font-size: 30px ;
+  }  
+  .order:last-child{
+    font-style: italic;
+  }  */
+
+  ol li:first-child {
+      font-weight: bold;   
+  }
+  ol li:last-child {
+      font-style: italic; 
+  }
+
+  .one:hover{
+    color: black;
+    background-color: yellow;
+    border: 2px solid red;
+  }
+  .two:hover{
+    color: black;
+    background-color: yellow;
+    border: 2px solid green;
+  }
+  .three:hover{
+    color: black;
+    background-color: yellow;
+    border: 2px solid orange;
+  }
+
+  input:focus{
+    border: 2px solid blue;
+    background-color: lightblue;
+  }

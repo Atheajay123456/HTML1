@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background-color: black;
+    color: #fff;
+    min-height: 100vh;
+}
+.start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    justify-content: space-around;
+}
+.icons{
+    margin-left: 20px;
+    font-size: 18px;
+    gap: 30px;
+    display: flex
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    position: fixed;
+    width: 100%; 
+    padding: 10px; 
+}
+.contact{
+    position: relative;
+}
+.contact-sign{
+    display: none;
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    background-color: #222;
+    border: 1px solid #555;
+    padding: 15px 20px;
+    border-radius: 4px;
+    width: 230px;
+    z-index: 999;
+
+}
+.contact-btn{
+    padding: 5px;
+    width: 100%;
+    background-color: #222;
+    border: 1px solid #555;
+    color: silver;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: start;
+    font-size: 12px;
+}
+/* .contact-btn:hover{
+  background-color: #e50914;
+  border-color: #e50914;
+} */
+.contact-log{
+  margin-top: 5px;
+  color: silver;
+  font-size: 12px;
+  border-top:1px solid #555;
+}
+.contact:hover .contact-sign{
+    display: block;
+    position: fixed;
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 130px;       
+}
+.rupee{
+  margin-bottom: 100px;
+}
+.crash{
+    display: flex;
+    padding: 2px;
+    margin: 10px 0 10px;
+    gap: 20px;
+}
+.button{
+    background-color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+.boat{
+   width: 340px;
+   height: auto;
+   filter: brightness(1.1) contrast(1.2); 
+   margin-bottom: 50px;
+}
+img{
+    height: 400px;
+    width: 250px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.arange{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+    gap: 10px;
+}
+.value1{
+    background-color: transparent;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    height: 200px;
+    padding-top: 20px;
+}
+.value1 img{
+    height: 250px;
+    width: 220px;
+}
+.value2{
+    background-color: transparent;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    height: 250px;
+    padding-top: 20px;
+}
+.value2 img{
+    height: 280px;
+    width: 230px;
+}
+.value3{
+    background-color: transparent;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    height: 300px;
+}
+.value3 img{
+    height: 300px;
+    width: 240px;
+}
+.value4{
+    background-color: transparent;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    height: 250px;
+    padding-top: 20px;
+}
+.value4 img{
+    height: 280px;
+    width: 230px;
+}
+.value5{
+    background-color: transparent;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    height: 200px;
+    padding-top: 30px;
+}
+.value5 img{
+    height: 250px;
+    width: 220px;
+}
+.small{
+    display: flex;
+    justify-content: center;
+}
+.list{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.list button{
+   border: none;
+   background-color: transparent; 
+   color: silver;
+   font-size: 1rem;
+   margin: 0 60px;
+}
+.list button:hover{
+    background-color: red;
+    padding: 2px 10px;
+}
+.list .active{
+    background-color: red;
+    padding: 0px 5px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin-bottom: 50px;
+    justify-content: center;
+    gap: 50px;
+}
+.box{
+    background-color: black;
+    border: 1px solid #222;
+    padding: 10px;
+    width: 360px;
+    height: 420px;
+    padding-top: 2px;
+}
+.box img{
+    width: 300px;
+    height: 230px;
+    justify-content: center;
+}
+.star{
+    color: #e53935;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+.size{
+    display: flex;
+    border-top:1px solid #222;
+}
+.box button{
+    background-color: red;
+    border: none;
+    color: wheat;
+    padding: 7px 131px;
+    border-radius: 3px;
+}
+.box1{
+    background-color: black;
+    border: 1px solid #222;
+    padding: 10px;
+    width: 360px;
+    height: 420px;
+    color: silver;
+    align-content: center;
+    text-align: center;
+}
+.box h3{
+    font-size: 25px;
+}
+.temp{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px 12px;
+}
+.fiv{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.fiv-icon{
+    color: red;
+    font-size: 40px; 
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+.bag{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* gap: 32px; */
+    margin-top: 18px;
+    padding-top: 18px;
+    margin-bottom: 22px;
+    padding-left: 50px;
+}
+.bag-text1{
+    padding-left: 100px;
+    height: 100px;
+    width: 400px;
+}
+.bag-text{
+    flex: 1 1 180px;
+    padding-left: 140px;
+}
+.bag-text1 input{
+    flex: 1;
+    padding: 5px 40px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 4px;
+} 
+.bag-text1 button{
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: silver;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.bag-text ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: silver;
+    font-size: 13px;
+}
+.bag-text ul li{
+    margin: 8px 0;
+}
+.footer-bottom .socials a{
+  display:inline-flex;
+  width:34px;
+  height:34px;
+  align-items:center;
+  justify-content:center;
+  background:transparent;
+  color: white;
+  border-radius:6px;
+  /* margin-left:6px; */
+  border:1px solid rgba(255,255,255,0.02);
+  padding-right: 0px;
+}
+.footer-bottom{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  flex-wrap:wrap;
+  border-top:1px solid #222;
+  padding-top:12px;
+  margin-top:8px;
+  padding-right: 100px;
+}
+
+.footer-bottom .socials a:hover{
+  color:var(--accent);
+  border-color:rgba(255,90,59,0.15);
+}
+
+
+

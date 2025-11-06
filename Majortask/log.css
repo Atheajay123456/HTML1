@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background-color: black;
+    color: #fff;
+    min-height: 100vh;
+}
+.start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    justify-content: space-around;
+}
+.icons{
+    margin-left: 20px;
+    font-size: 18px;
+    gap: 30px;
+    display: flex
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    position: fixed;
+    width: 100%; 
+    padding: 10px; 
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin-top: 80px;
+
+}
+.sign-box{
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    width: 350px;
+    box-shadow: 0 0 15px rgba(255,255,255,0.1);
+}
+.sign-box h2{
+    margin-bottom: 10px;
+}
+.sign-box p{
+    color: silver;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.sign-box input{
+    width: 300px;
+    padding: 10px;
+    margin: 8px 0;
+    background: transparent;
+    border: 1px solid #555;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 5px;
+}
+.sign-btn{
+    background-color: red;
+    padding: 6px 100px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    width: 300px;
+    margin-top: 15px;
+}
+.sign-button{
+    display: flex;
+    justify-content: space-between;
+}
+.sign-button button{
+    flex: 1;
+    margin: 0 5PX;
+    border: none;
+    color: #fff;
+    padding: 10PX;
+    border-radius: 4PX;
+    font-weight: 500;
+}

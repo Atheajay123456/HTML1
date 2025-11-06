@@ -1,0 +1,33 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px black solid;
+    margin:60px auto;
+    box-shadow: 10px 12px 14px white;
+    border-radius: 50%;
+}
+/* body{
+    background-color: black;
+} */
+
+p{
+    height: 100px;
+    width: 100px;
+    border: 1px solid cadetblue;
+    display: inline;
+}
+span{
+    height: 100px;
+    width: 100px;
+    border: 1px solid cadetblue;
+    display: inline-block;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid cadetblue;
+    background-color: aliceblue;
+    display: none;
+
+
+}

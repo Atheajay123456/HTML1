@@ -1,0 +1,101 @@
+Pseudo classes */
+ a:link{
+    color: brown;
+} 
+
+/* a:hover{
+    color: orange;
+} */
+
+a:visited{
+    color: green;
+} 
+
+a:active{
+    color:pink ;
+}
+
+input:focus{
+    color: orange;
+    outline: none;
+    border: 3px solid red;
+    padding: 10px;
+    background-color: yellow;
+}
+
+input:checked+label{
+    text-decoration: line-through;
+    color: brown;
+}
+
+
+
+/* Pseudo child */
+
+/* p:first-child{
+    color: chocolate;
+    font-weight: bold;
+} */ */
+
+/* p:last-child{
+    color: orange;
+    font-weight: bold;
+} */
+
+p:nth-child(5){
+    color: orange;
+    font-weight: bold;
+}
+
+p:nth-of-type(4){
+    color: orange;
+    font-weight: bold;
+}
+
+/* p:nth-of-type(even){
+    color: orange;
+    font-weight: bold;
+} */
+
+/* p:nth-of-type(odd){
+    color: orange;
+    font-weight: bold;
+}
+
+
+/* --------------------------Pseudo Elements------------------------------------------ */
+/* Pseudo elements */
+/* p::first-letter{
+    content: "l";
+    color: brown;
+    font-size: 30px;
+} */
+
+/* p::first-line{
+    color: yellow;
+} */
+
+/* p::before{
+    content: "⚾";
+    font-size: 40px;
+} */
+
+/* p::after{
+    content: "⚾";
+    font-size: 40px;
+} */
+
+/* p::selection{
+    color: blue;
+    background-color: orange;
+} */
+
+p::first-letter{
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: bold;
+}
+p::selection{
+    color: brown;
+    background-color: yellow;
+}
